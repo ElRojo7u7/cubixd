@@ -1,7 +1,7 @@
 # CubixD, a 3d cube
 
 <div align="center">
-  <img src="./screenshots/main.webp" alt="3d cube mooving from right to left" title="Main demostration">
+  <img src="https://raw.githubusercontent.com/ElRojo7u7/cubixd/main/screenshots/main.webp" alt="3d cube mooving from right to left" title="Main demostration">
 </div>
 
 ## Installation
@@ -10,7 +10,7 @@ Add cubixd to your pubspec.yaml dependencies
 
 ```yaml
 dependencies:
-  cubixd: ^0.1.0
+  cubixd: ^0.1.1
 ```
 
 And then import it:
@@ -143,7 +143,7 @@ If this parameter isn't set (null). The user won't be able to move the cubixd
 As a result we obtain
 
 <div align="center">
-  <img src="./screenshots/out-of-order.webp" alt="Mooving a 3d cube with the mouse" title="Out of order">
+  <img src="https://raw.githubusercontent.com/ElRojo7u7/cubixd/main/screenshots/out-of-order.webp" alt="Mooving a 3d cube with the mouse" title="Out of order">
 </div>
 
 ### advancedXYposAnim
@@ -374,7 +374,7 @@ Hints:
 **Here's a slow motion of the result:**
 
 <div align="center">
-  <img src="./screenshots/circle-stars.webp" alt="Circle stars splashing when selecting" title="Circle stars">
+  <img src="https://raw.githubusercontent.com/ElRojo7u7/cubixd/main/screenshots/circle-stars.webp" alt="Circle stars splashing when selecting" title="Circle stars">
 </div>
 
 ### simplePosAnim
@@ -496,7 +496,7 @@ CubixD(
 As a result we obtain:
 
 <div align="center">
-  <img src="./screenshots/static.webp" alt="Mooving a 3d cube with the mouse" title="Static">
+  <img src="https://raw.githubusercontent.com/ElRojo7u7/cubixd/main/screenshots/static.webp" alt="Mooving a 3d cube with the mouse" title="Static">
 </div>
 
 ## Extras
@@ -521,7 +521,7 @@ Otherwise, if the vertical angle is grater than 90°. A horizontal angle grater 
 has a direction from left to right.
 
 <div align="center">
-  <img src="./screenshots/angles.webp" alt="3d cube rotating on itself showing its angles of rotation" title="Angles and direction">
+  <img src="https://raw.githubusercontent.com/ElRojo7u7/cubixd/main/screenshots/angles.webp" alt="3d cube rotating on itself showing its angles of rotation" title="Angles and direction">
 </div>
 
 ### TODO

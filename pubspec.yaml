@@ -1,6 +1,6 @@
 name: cubixd
-description: Add a 3d cube to your app!
-version: 0.1.0
+description: An animated 3d cube widget and static 3d cube widget, support selection.
+version: 0.1.1
 repository: https://github.com/ElRojo7u7/cubixd
 # homepage: https://www.example.com
 

@@ -701,7 +701,7 @@ class _AnimatedCubixDState extends State<AnimatedCubixD>
   // Begin handle selection and restoring mechanism
   void _onPanUpdate() {
     _advancedXYposAnim.controller.stop();
-    widget.onPanUpdate != null ? widget.onPanUpdate!() : null;
+    if (widget.onPanUpdate != null) widget.onPanUpdate!();
   }
 
   void _seleCall(SelectedSide opt, Vector2 tmp) {

@@ -405,32 +405,3 @@ class _CubixDState extends State<CubixD> with SingleTickerProviderStateMixin {
     return SelectedSide.left;
   }
 }
-
-class _CircleBlurPainter extends CustomPainter {
-  _CircleBlurPainter({
-    required this.circleWidth,
-    required this.blurSigma,
-    required this.color,
-  });
-  final Color color;
-  final double circleWidth;
-  final double blurSigma;
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    Paint line = Paint()
-      ..color = color
-      ..strokeCap = StrokeCap.round
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = circleWidth
-      ..maskFilter = MaskFilter.blur(BlurStyle.normal, blurSigma);
-    Offset center = Offset(size.width / 2, size.height / 2);
-    double radius = math.min(size.width / 2, size.height / 2);
-    canvas.drawCircle(center, radius, line);
-  }
-
-  @override
-  bool shouldRepaint(CustomPainter oldDelegate) {
-    return true;
-  }
-}
