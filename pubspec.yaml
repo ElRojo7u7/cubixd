@@ -1,6 +1,7 @@
 name: cubixd
-description: A starting point for Dart libraries or applications.
+description: Add a 3d cube to your app!
 version: 0.1.0
+repository: https://github.com/ElRojo7u7/cubixd
 # homepage: https://www.example.com
 
 environment:
